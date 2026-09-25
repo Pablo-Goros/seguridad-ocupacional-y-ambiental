@@ -1,1 +1,66 @@
-sources: []
+sources:
+  - id: EXT-001
+    title: "Examen final: Tema 2"
+    type: external
+    path: external/final_1.md
+    extracted: extracted/EXT-001.md
+  - id: EXT-002
+    title: "Final: preguntas y respuestas (5 de julio de 2021)"
+    type: external
+    path: external/final_2.md
+    extracted: extracted/EXT-002.md
+  - id: EXT-003
+    title: "Final 2Q2019: transcripción"
+    type: external
+    path: external/final_3.md
+    extracted: extracted/EXT-003.md
+  - id: EXT-004
+    title: "Final 2Q2020: compilación"
+    type: external
+    path: external/final_5.md
+    extracted: extracted/EXT-004.md
+  - id: EXT-005
+    title: "Parcial Ambiental 1: transcripción incompleta"
+    type: external
+    path: external/parcial_ambiental_1.md
+    extracted: extracted/EXT-005.md
+  - id: EXT-006
+    title: "Parcial Ambiental 2: preguntas y respuestas"
+    type: external
+    path: external/parcial_ambiental_2.md
+    extracted: extracted/EXT-006.md
+  - id: EXT-007
+    title: "Parcial Ambiental 3: preguntas y respuestas"
+    type: external
+    path: external/parcial_ambiental_3.md
+    extracted: extracted/EXT-007.md
+  - id: EXT-008
+    title: "Preguntas de Ambiental 2.0: conversión desde PDF"
+    type: external
+    path: external/parcial_ambiental_4.md
+    extracted: extracted/EXT-008.md
+  - id: EXT-009
+    title: "Parcial Seguridad 1: preguntas y respuestas"
+    type: external
+    path: external/parcial_seguridad_1.md
+    extracted: extracted/EXT-009.md
+  - id: EXT-010
+    title: "Parcial Seguridad 2: preguntas y respuestas"
+    type: external
+    path: external/parcial_seguirdad_2.md
+    extracted: extracted/EXT-010.md
+  - id: EXT-011
+    title: "Resumen de Ambiental"
+    type: external
+    path: external/resumen_ambiental.md
+    extracted: extracted/EXT-011.md
+  - id: EXT-012
+    title: "Resumen de Seguridad Ocupacional"
+    type: external
+    path: external/resumen_seguridad.md
+    extracted: extracted/EXT-012.md
+  - id: EXT-013
+    title: "Enlace al sitio de preguntas de Seguridad Ocupacional y Ambiental"
+    type: external
+    path: external/link_preguntas.txt
+    extracted: extracted/EXT-013.md

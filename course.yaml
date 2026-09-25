@@ -1,9 +1,9 @@
 schema_version: 1
 
 course:
-  name: ""
-  institution: ""
-  period: ""
+  name: "Seguridad Ocupacional y Ambiental"
+  institution: "ITBA"
+  period: "2026-1c"
   language: es
 
 sources:
