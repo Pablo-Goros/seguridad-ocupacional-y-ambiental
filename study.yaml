@@ -1,0 +1,18 @@
+language: es
+
+teaching:
+  depth: progressive
+  intuition_before_formalism: true
+  use_examples: true
+  use_analogies: when_helpful
+
+interaction:
+  explain_in_blocks: true
+  questions_after_block: true
+  numbered_questions: true
+  wait_for_answer: true
+
+correction:
+  identify_error_first: true
+  explain_why: true
+  avoid_rewriting_everything: true

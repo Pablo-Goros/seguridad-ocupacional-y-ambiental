@@ -1,0 +1,4 @@
+sources/official/*.mp4 filter=lfs diff=lfs merge=lfs -text
+sources/official/*.MP4 filter=lfs diff=lfs merge=lfs -text
+sources/tps/*.mp4 filter=lfs diff=lfs merge=lfs -text
+sources/tps/*.MP4 filter=lfs diff=lfs merge=lfs -text

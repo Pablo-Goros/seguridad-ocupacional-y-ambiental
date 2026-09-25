@@ -1,0 +1,16 @@
+schema_version: 1
+
+course:
+  name: ""
+  institution: ""
+  period: ""
+  language: es
+
+sources:
+  priority:
+    - official
+    - external
+    - general_knowledge
+
+citation:
+  page_level: true
