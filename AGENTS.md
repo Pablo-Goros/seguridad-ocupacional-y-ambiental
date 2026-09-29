@@ -24,7 +24,12 @@ Before doing academic work:
 
 # Source authority
 
-official > external > general knowledge
+For this course, `sources/external/resumen_ambiental.md` and
+`sources/external/resumen_seguridad.md` are the absolute source of truth for
+course content, regardless of their `external` classification. Prefer these
+summaries over official, other external, or general-knowledge sources when
+they differ. Other sources may provide context or help identify discrepancies,
+but must not override these summaries when teaching what the course says.
 
 Never present model knowledge as course material.
 

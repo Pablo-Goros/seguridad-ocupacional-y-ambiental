@@ -1,6 +1,6 @@
 # Mapa de temas
 
-> Esta compilación se basa únicamente en materiales externos (`EXT`); no se incorporaron fuentes oficiales. Varias piezas son resúmenes o transcripciones con respuestas no verificadas, páginas faltantes o dudas explícitas. Úsalas como guía de repaso y coteja las afirmaciones normativas con fuentes oficiales antes de tratarlas como vigentes.
+> **Autoridad para estudiar la materia:** `sources/external/resumen_ambiental.md` y `sources/external/resumen_seguridad.md` son la fuente de verdad absoluta del contenido del curso, aunque estén clasificadas como externas. Si otra fuente difiere, prevalecen esos dos resúmenes para establecer qué enseña la materia. Esta wiki también referencia otros materiales externos (`EXT`), que sirven como apoyo y contexto. Las afirmaciones normativas deben verificarse en fuentes oficiales antes de tratarlas como vigentes.
 
 ## Seguridad ocupacional
 

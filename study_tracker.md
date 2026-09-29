@@ -1,7 +1,8 @@
 # Plan de estudio: Ambiental para el parcial
 
-1. [en progreso] Ambiente, ecosistema, contaminantes, polución y toxicidad básica
-2. [pendiente] Atmósfera, perfil térmico, inversión y contaminantes atmosféricos
+1. [completo] Ambiente, ecosistema, contaminantes, polución y toxicidad básica
+2.1 [completo] Atmósfera, perfil térmico e inversión térmica
+2.2 [en progreso] Contaminantes atmosféricos
 3. [pendiente] Radiación solar, efecto invernadero, cambio climático y capa de ozono
 4. [pendiente] Rocas, suelos, granulometría, lixiviados y napas
 5. [pendiente] Sistemas acuáticos, ciclo hidrogeológico y contaminación del agua

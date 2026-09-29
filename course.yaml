@@ -7,7 +7,12 @@ course:
   language: es
 
 sources:
+  course_truth:
+    - sources/external/resumen_ambiental.md
+    - sources/external/resumen_seguridad.md
+  course_truth_policy: "These two summaries are the absolute source of truth for course content, regardless of source classification."
   priority:
+    - course_truth
     - official
     - external
     - general_knowledge
