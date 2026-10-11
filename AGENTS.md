@@ -2,8 +2,7 @@
 
 This repository is a persistent learning system.
 
-Codex maintains a traceable compiled wiki from the available
-course sources and acts as a tutor over that knowledge.
+The Agent maintains a traceable compiled wiki from the available course sources and acts as a tutor over that knowledge.
 
 ## Language conventions
 
@@ -40,11 +39,14 @@ Original sources are immutable.
 Never modify:
 - sources/official/
 - sources/external/
+- sources/practical-assignment/
 - sources/tps/
 
 # Wiki
 
 wiki/ is compiled knowledge.
+
+Practical assignments are cataloged separately as `practical_assignment` with `PA-NNN` IDs. Preserve their originals in `sources/practical-assignment/` and searchable extracts in `sources/extracted/PA-NNN.md`. Use them as task context when helping solve assignments; never generate wiki content from them or cite them as wiki knowledge sources. Ground explanations in the wiki and teaching sources instead.
 
 Organize it by concept, not by source document.
 
@@ -56,6 +58,22 @@ traceable attribution.
 # Study
 
 Studying is read-only by default.
+
+Use `study-plan` to create or revise a saved map for a broad topic, and
+`study-block` to teach one block or answer a bounded concept question. A PA may
+be an optional example in a study block; it is not solved there.
+
+`study-plan` records one topic-wide study depth: `light`, `medium`, or `heavy`,
+defaulting to `medium` for a new plan. It researches the topic to build the map;
+`study-block` researches the selected block at that saved depth before
+teaching.
+
+# Practical Assignment 
+
+Use `assignment-plan` to analyze a PA and save an ordered solution plan. Use
+`assignment-step` to execute one step from that plan and update its status.
+Ground the solution in the subject's wiki and teaching sources. PA content
+remains task context and does not become wiki knowledge.
 
 Do not modify the wiki merely because a tutoring conversation
 produced a useful explanation.

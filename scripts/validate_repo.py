@@ -33,6 +33,7 @@ REQUIRED_PATHS = (
     "sources/inbox",
     "sources/official",
     "sources/external",
+    "sources/practical-assignment",
     "sources/extracted",
     "sources/catalog.yaml",
     "wiki/index.md",
@@ -40,18 +41,20 @@ REQUIRED_PATHS = (
     "wiki/topic-template.md",
     "wiki/topics",
     ".agents/skills/ingest-material/SKILL.md",
-    ".agents/skills/study/SKILL.md",
+    ".agents/skills/study-plan/SKILL.md",
+    ".agents/skills/study-block/SKILL.md",
+    ".agents/skills/assignment-plan/SKILL.md",
+    ".agents/skills/assignment-step/SKILL.md",
     ".agents/skills/audit-wiki/SKILL.md",
     "scripts/extract_office.py",
     "scripts/extract_pdf.py",
-    "scripts/extract_video.py",
     "scripts/validate_repo.py",
 )
 TOPIC_FIELDS = ("title", "aliases", "sources", "related", "prerequisites")
 LIST_FIELDS = ("aliases", "sources", "related", "prerequisites")
 TOPIC_NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.md$")
-SOURCE_ID_RE = re.compile(r"^(OFF|EXT)-\d{3,}$")
-SOURCE_REFERENCE_RE = re.compile(r"\b(?:OFF|EXT)-\d{3,}\b")
+SOURCE_ID_RE = re.compile(r"^(OFF|EXT|PA)-\d{3,}$")
+SOURCE_REFERENCE_RE = re.compile(r"\b(?:OFF|EXT|PA)-\d{3,}\b")
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 
 
@@ -159,7 +162,7 @@ def validate_catalog(validation: Validation) -> set[str]:
 
         source_id = entry.get("id")
         if not isinstance(source_id, str) or not SOURCE_ID_RE.fullmatch(source_id):
-            validation.error(location, "'id' must match OFF-NNN or EXT-NNN")
+            validation.error(location, "'id' must match OFF-NNN, EXT-NNN, or PA-NNN")
         elif source_id in ids:
             validation.error(location, f"duplicate source ID {source_id}")
         else:
@@ -170,10 +173,11 @@ def validate_catalog(validation: Validation) -> set[str]:
             validation.error(location, "'title' must be a non-empty string")
 
         source_type = entry.get("type")
-        if source_type not in {"official", "external"}:
-            validation.error(location, "'type' must be 'official' or 'external'")
+        prefixes = {"official": "OFF-", "external": "EXT-", "practical_assignment": "PA-"}
+        if source_type not in prefixes:
+            validation.error(location, "'type' must be 'official', 'external', or 'practical_assignment'")
         elif isinstance(source_id, str):
-            expected_prefix = "OFF-" if source_type == "official" else "EXT-"
+            expected_prefix = prefixes[source_type]
             if not source_id.startswith(expected_prefix):
                 validation.error(location, f"ID prefix does not match type {source_type!r}")
 
@@ -182,8 +186,9 @@ def validate_catalog(validation: Validation) -> set[str]:
             validation.error(location, "'path' must be a non-empty string")
         else:
             allowed_dirs = {
-                "official": ("official/", "tps/"),
+                "official": ("official/",),
                 "external": ("external/",),
+                "practical_assignment": ("practical-assignment/",),
             }.get(source_type)
             normalized = original.replace("\\", "/")
             if allowed_dirs and not normalized.startswith(allowed_dirs):
@@ -201,6 +206,8 @@ def validate_catalog(validation: Validation) -> set[str]:
                 normalized = extracted.replace("\\", "/")
                 if not normalized.startswith("extracted/"):
                     validation.error(location, "'extracted' must be under extracted/")
+                if source_type == "practical_assignment" and normalized != f"extracted/{source_id}.md":
+                    validation.error(location, "PA extract must be extracted/<PA-ID>.md")
                 resolved = safe_source_path(extracted, location, validation)
                 if resolved is not None and not resolved.is_file():
                     validation.error(location, f"extract does not exist: sources/{normalized}")
@@ -251,6 +258,9 @@ def validate_topics(validation: Validation, catalog_ids: set[str]) -> dict[str, 
                     referenced_ids.update(SOURCE_REFERENCE_RE.findall(item))
         for source_id in sorted(referenced_ids - catalog_ids):
             validation.error(display(path), f"references source ID absent from catalog: {source_id}")
+        for source_id in sorted(referenced_ids):
+            if source_id.startswith("PA-"):
+                validation.error(display(path), f"practical assignment cannot be a wiki knowledge source: {source_id}")
 
     for slug, (metadata, _) in parsed.items():
         for field_name in ("related", "prerequisites"):

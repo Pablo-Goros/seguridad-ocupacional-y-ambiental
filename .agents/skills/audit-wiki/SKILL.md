@@ -5,8 +5,8 @@ description: Audit the course wiki for deterministic repository errors and seman
 
 # Audit Wiki
 
-Audit the repository from its root. Read `AGENTS.md`, `course.yaml`,
-`wiki/topic-template.md`, and `wiki/index.md` to preserve local contracts.
+Audit the repository from its root. Follow `AGENTS.md`, and read
+`wiki/topic-template.md` and `wiki/index.md` before reviewing topics.
 
 ## Mechanical pass
 
@@ -32,11 +32,13 @@ Review what deterministic checks cannot decide:
   insufficiently explained concepts;
 - academic content in a language other than `course.yaml` specifies;
 - exam-relevance claims without repository evidence;
-- claims that appear to be unsupported model inference.
+- claims that appear to be unsupported model inference;
+- wiki content derived from practical assignments, including uncited PA-based
+  examples or applications; PAs are task context, not wiki knowledge sources.
 
-Follow citations into the catalog, extracts, and originals as needed. Apply the
-authority order from `course.yaml`, and distinguish an actual contradiction
-from sources that merely use different scope or terminology.
+Follow citations into the catalog, extracts, and originals as needed. When
+sources differ, distinguish contradictions from differences in scope or
+terminology using the configured source authority.
 
 ## Modification policy
 
