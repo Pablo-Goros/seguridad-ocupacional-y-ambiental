@@ -11,7 +11,7 @@ belong to `study-plan`.
 
 ## Select the block and study depth
 
-1. For a planned session, open the named `study_<topic-slug>.md`. Read its
+1. For a planned session, open the named `study/plans/<topic-slug>.md`. Read its
    topic-wide study depth, block scope, learning outcomes, and source references.
    If the user says to continue and exactly one unfinished plan exists, resume
    it; if several exist, ask which one. If no plan exists for a broad topic,

@@ -11,6 +11,10 @@ in `sources/practical-assignment/`; also inspect unrecorded files already placed
 there. Work from the repository root. Follow `AGENTS.md` and
 `wiki/topic-template.md` before processing academic content.
 
+Use `tmp/` for temporary processing artifacts such as rendered pages or
+intermediate conversions. Keep final searchable extracts in
+`sources/extracted/`; do not ingest files from `tmp/` automatically.
+
 ## Process the inbox
 
 Inspect every pending file and classify it as:
