@@ -59,7 +59,7 @@ the research shows that the topic structure requires it.
 If repository sources do not support the requested depth, identify the gap in
 the plan rather than inventing coverage.
 
-Save or update `study/plans/<topic-slug>.md`, using
+Save or update `study/<topic-slug>.md`, using
 [`study_template.md`](study_template.md) as a structure. Write plan content in
 the course language unless the user requests another language; keep the study
 depth value itself as the canonical English word `light`, `medium`, or `heavy`.
@@ -68,12 +68,12 @@ status, scope, learning outcomes, and source references. Add detail to each
 block's research outline according to the selected depth. Do not store student
 answers, demonstrated understanding, misconceptions, or learner profiles.
 
-Create the output directory if needed. Discover saved plans in `study/plans/`.
+Create the output directory if needed. Discover saved plans in `study/`.
 For compatibility, also check root-level `study_<topic-slug>.md` plans: when
 resuming one, move it to the new path without changing its depth, content, or
 statuses. If both paths exist for the same topic, compare them and resolve
 which to resume without overwriting either silently. Fix relative links when
-moving a plan; links to repository sources must resolve from `study/plans/`.
+moving a plan; links to repository sources must resolve from `study/`.
 
 For a new plan, mark the first block in progress and the rest pending. Preserve
 statuses when resuming if the block scope has not changed. When the study depth
