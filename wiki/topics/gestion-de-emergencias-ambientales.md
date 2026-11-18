@@ -1,8 +1,8 @@
 ---
 title: "Gestión de emergencias ambientales"
 aliases: [respuesta a emergencias, simulacros, guía de respuesta ante emergencias]
-sources: [EXT-005, EXT-009, EXT-011]
-related: [prevencion-de-incendios, contaminacion-atmosferica, tratamiento-de-efluentes-liquidos, evaluacion-de-impacto-ambiental]
+sources: [EXT-005, EXT-009, EXT-011, OFF-006]
+related: [prevencion-de-incendios, contaminacion-atmosferica, tratamiento-de-efluentes-liquidos, evaluacion-de-impacto-ambiental, restauracion-y-manejo-de-ecosistemas]
 prerequisites: []
 ---
 
@@ -18,6 +18,8 @@ El material recopilado describe simulacros para practicar distintos escenarios c
 
 La misma fuente resume una guía de respuesta por colores y la lectura de carteles de transporte, pero no identifica edición ni vigencia de esa guía. Por eso esos detalles se conservan como contenido del apunte, no como instrucciones operativas actuales. [EXT-011]
 
+La clase 6 propone anticipar cómo interrumpir un simulacro, asignar observadores y revisar después la comunicación, las decisiones y los procedimientos. Vincula el seguimiento con la atención de las personas y la reparación del daño ambiental. [EXT-011, OFF-006, pp. 8, 13-16]
+
 ## Exam relevance
 
 Una transcripción de parcial pregunta por el uso del número ONU y la consulta de la guía de respuesta ante emergencias; una respuesta de seguridad también pregunta por el símbolo de agua tachada. [EXT-005, EXT-009]
@@ -27,3 +29,4 @@ Una transcripción de parcial pregunta por el uso del número ONU y la consulta 
 - [EXT-005]
 - [EXT-009]
 - [EXT-011]
+- [OFF-006]

@@ -1,7 +1,7 @@
 ---
 title: "Textura del suelo y lixiviados"
 aliases: [granulometría del suelo, permeabilidad, contaminación del suelo]
-sources: [EXT-007, EXT-008, EXT-011]
+sources: [EXT-007, EXT-008, EXT-011, OFF-001]
 related: [sistemas-acuaticos-y-ciclo-hidrologico, contaminacion-ambiental]
 prerequisites: [ambiente-y-ecosistema]
 ---
@@ -16,7 +16,9 @@ Las fuentes de estudio comparan arena, limo y arcilla por tamaño de partícula,
 
 El orden de grano grueso a fino se presenta como arena, limo y arcilla. Los materiales asocian las partículas gruesas con sedimentación más rápida y mayor permeabilidad, y las finas con sedimentación lenta y menor permeabilidad. [EXT-007, EXT-008]
 
-Según las respuestas recopiladas, un suelo arenoso facilita la percolación hacia la napa; un horizonte arcilloso frena el movimiento vertical y puede favorecer la dispersión lateral del lixiviado. Una compilación también afirma que la arcilla puede “limpiar” agua percolada; esa afirmación no queda corroborada por las demás fuentes y se mantiene sin resolver. [EXT-007, EXT-008]
+Según las respuestas recopiladas, un suelo arenoso facilita la percolación hacia la napa. Un horizonte arcilloso frena el movimiento vertical y puede favorecer la dispersión lateral del lixiviado. [EXT-007, EXT-008]
+
+La clase 1 atribuye a la fracción arcillosa capacidad de sorción química y de soporte biológico. La retención de algunas sustancias depende de la granulometría y de la composición del suelo. Las fuentes no permiten generalizar la afirmación de una compilación de que la arcilla puede «limpiar» el agua percolada. [EXT-007, EXT-011, OFF-001, pp. 40-43]
 
 ## Exam relevance
 
@@ -27,3 +29,4 @@ Varios parciales recopilados plantean relacionar granulometría, sedimentación,
 - [EXT-007]
 - [EXT-008]
 - [EXT-011]
+- [OFF-001]

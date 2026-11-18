@@ -64,3 +64,38 @@ sources:
     type: external
     path: external/link_preguntas.txt
     extracted: extracted/EXT-013.md
+  - id: OFF-001
+    title: "Ambiental, clase 1: Ambiente, atmósfera, suelo e hidrósfera"
+    type: official
+    path: official/SOA_ambiental_1.pdf
+    extracted: extracted/OFF-001.md
+  - id: OFF-002
+    title: "Ambiental, clase 2: Energía, biósfera y ecología"
+    type: official
+    path: official/CLASE 2 Ambiental.pdf
+    extracted: extracted/OFF-002.md
+  - id: OFF-003
+    title: "Ambiental, clase 3: Contaminación, residuos y tratamiento de efluentes"
+    type: official
+    path: official/SOA_ambiental_3.pdf
+    extracted: extracted/OFF-003.md
+  - id: OFF-004
+    title: "Ambiental, clase 4: Desarrollo sustentable"
+    type: official
+    path: official/SOA_ambiental_4.pdf
+    extracted: extracted/OFF-004.md
+  - id: OFF-005
+    title: "Ambiental, clase 5: Legislación y evaluación de impacto ambiental (2019)"
+    type: official
+    path: official/12.83 2019 (1) clase 5 ambiental - Legislación y EIA.ppt
+    extracted: extracted/OFF-005.md
+  - id: OFF-006
+    title: "Ambiental, clase 6: Gestión de emergencias ambientales y manejo de ecosistemas"
+    type: official
+    path: official/SOA_ambiental_6.pdf
+    extracted: extracted/OFF-006.md
+  - id: EXT-014
+    title: "Resumen para el final de Seguridad Ocupacional y Ambiental — Andrés Garbarz"
+    type: external
+    path: external/Resumen_SOA_Final.pdf
+    extracted: extracted/EXT-014.md

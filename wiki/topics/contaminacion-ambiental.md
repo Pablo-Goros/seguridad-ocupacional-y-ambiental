@@ -1,7 +1,7 @@
 ---
 title: "Contaminación ambiental"
 aliases: [contaminante, polución, contaminación]
-sources: [EXT-006, EXT-007, EXT-008, EXT-011]
+sources: [EXT-006, EXT-007, EXT-008, EXT-011, OFF-003]
 related: [contaminacion-atmosferica, textura-del-suelo-y-lixiviados, sistemas-acuaticos-y-ciclo-hidrologico, tratamiento-de-efluentes-liquidos]
 prerequisites: [ambiente-y-ecosistema]
 ---
@@ -14,7 +14,7 @@ El resumen ambiental define contaminante como un factor o sustancia ajeno al amb
 
 ## Core concepts
 
-En la distinción usada por ese resumen, **contaminación** es superar niveles normales sin que aún se produzca daño, mientras que **polución** implica superar la capacidad de autodepuración y causar degradación. Esa terminología es la formulación de una fuente externa del lote y no se presenta como definición universal. [EXT-011]
+En la distinción que emplean el resumen y la clase 3, **contaminación** es superar niveles normales sin causar daño, mientras que **polución** implica superar la capacidad de autodepuración y causar degradación. [EXT-011, OFF-003, pp. 5-6]
 
 Las clasificaciones recogidas incluyen contaminantes físicos, químicos o biológicos; naturales o antropogénicos; directos o formados por transformaciones ambientales; y de alcance local, regional o global. [EXT-011]
 
@@ -28,3 +28,4 @@ Los materiales aplican estas ideas a la contaminación del aire, el suelo y el a
 - [EXT-007]
 - [EXT-008]
 - [EXT-011]
+- [OFF-003]

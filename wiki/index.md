@@ -26,4 +26,6 @@
 - [Gestión de residuos y economía circular](topics/gestion-de-residuos-y-economia-circular.md)
 - [Desarrollo sustentable y diseño](topics/desarrollo-sustentable-y-diseno.md)
 - [Evaluación de impacto ambiental](topics/evaluacion-de-impacto-ambiental.md)
+- [Marco jurídico ambiental argentino](topics/marco-juridico-ambiental-argentino.md)
 - [Gestión de emergencias ambientales](topics/gestion-de-emergencias-ambientales.md)
+- [Restauración y manejo de ecosistemas](topics/restauracion-y-manejo-de-ecosistemas.md)

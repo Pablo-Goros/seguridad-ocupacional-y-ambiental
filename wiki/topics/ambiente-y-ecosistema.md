@@ -1,7 +1,7 @@
 ---
 title: "Ambiente y ecosistema"
 aliases: [medioambiente, medio ambiente]
-sources: [EXT-007, EXT-008, EXT-011]
+sources: [EXT-007, EXT-008, EXT-011, OFF-001]
 related: [contaminacion-ambiental, biodiversidad-y-ecologia, sistemas-acuaticos-y-ciclo-hidrologico]
 prerequisites: []
 ---
@@ -16,6 +16,8 @@ Las compilaciones relacionan el ambiente con componentes físicos, químicos y b
 
 El resumen distingue **ambiente**, que enfoca los componentes, de **ecosistema**, que enfoca las relaciones entre esos componentes. Las fuentes no emplean una única lista cerrada de componentes: unas incluyen energía y biósfera como elementos adicionales y otras los describen como interacción o resultado. Esta diferencia queda abierta en los materiales disponibles. [EXT-007, EXT-008, EXT-011]
 
+La clase 1 representa el ambiente como un sistema en el que también interactúan la población, la economía y la organización social. En un ciclo de **refuerzo**, el efecto que retorna a la variable inicial amplifica el cambio. En un ciclo de **compensación**, tiende a contrarrestarlo. Ambos ciclos pueden coexistir dentro del mismo sistema. [OFF-001, pp. 6-11]
+
 ## Relationships
 
 La relación entre componentes vivos y no vivos se desarrolla en [biodiversidad y ecología](biodiversidad-y-ecologia.md); el movimiento de agua entre sistemas se resume en [sistemas acuáticos y ciclo hidrológico](sistemas-acuaticos-y-ciclo-hidrologico.md). [EXT-011]
@@ -29,3 +31,4 @@ Las compilaciones contienen preguntas que piden definir ambiente y distinguir po
 - [EXT-007]
 - [EXT-008]
 - [EXT-011]
+- [OFF-001]

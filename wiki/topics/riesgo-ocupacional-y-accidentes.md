@@ -1,7 +1,7 @@
 ---
 title: "Riesgo ocupacional y accidentes"
 aliases: [peligro, riesgo laboral, incidente, cuasi accidente]
-sources: [EXT-009, EXT-010, EXT-012]
+sources: [EXT-009, EXT-010, EXT-012, EXT-014]
 related: [barreras-de-seguridad, investigacion-de-accidentes, analisis-de-seguridad-de-puestos-de-trabajo]
 prerequisites: []
 ---
@@ -21,6 +21,8 @@ Los apuntes distinguen el peligro, que puede causar daño, del riesgo, que combi
 
 Los apuntes relacionan higiene industrial con la prevención de enfermedades ocupacionales y seguridad industrial con la prevención de accidentes e incidentes. [EXT-012]
 
+La **salud ocupacional** abarca la preservación, la mejora y la reparación de la salud durante la vida laboral. Una **enfermedad profesional** puede originarse o agravarse por el trabajo. El resumen de Seguridad vincula su identificación con el agente de riesgo, el cuadro clínico, la exposición y las actividades en que puede producirse. [EXT-012; EXT-014, p. 1]
+
 ## Exam relevance
 
 Las compilaciones incluyen preguntas sobre accidentes, enfermedades profesionales y priorización de controles; esto muestra que el vocabulario aparece en materiales de evaluación recopilados, sin confirmar por sí solo el criterio vigente de la cátedra. [EXT-009, EXT-010]
@@ -30,3 +32,4 @@ Las compilaciones incluyen preguntas sobre accidentes, enfermedades profesionale
 - [EXT-009]
 - [EXT-010]
 - [EXT-012]
+- [EXT-014]

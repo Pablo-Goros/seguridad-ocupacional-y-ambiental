@@ -1,8 +1,8 @@
 ---
 title: "Evaluación de impacto ambiental"
 aliases: [EIA, EsIA, matriz de impactos, PGA]
-sources: [EXT-001, EXT-007, EXT-008, EXT-011]
-related: [desarrollo-sustentable-y-diseno, biodiversidad-y-ecologia, gestion-de-emergencias-ambientales]
+sources: [EXT-001, EXT-007, EXT-008, EXT-011, OFF-005]
+related: [desarrollo-sustentable-y-diseno, biodiversidad-y-ecologia, gestion-de-emergencias-ambientales, marco-juridico-ambiental-argentino]
 prerequisites: [ambiente-y-ecosistema]
 ---
 
@@ -14,7 +14,9 @@ El resumen ambiental presenta la EIA como una herramienta para anticipar y valor
 
 ## How it works
 
-En la síntesis del método de Conesa Fernández-Vítora se proponen matrices de impactos, de importancia cualitativa y de cuantificación cuantitativa. El resultado informa el impacto total sobre los factores evaluados. [EXT-011]
+La clase 5 distingue el procedimiento de **EIA** del **Estudio de Impacto Ambiental (EsIA)**, que aporta el análisis técnico interdisciplinario. El estudio describe el proyecto y el sistema ambiental, compara alternativas, identifica y valora impactos y propone un PGA. En el esquema de clase, la **Declaración de Impacto Ambiental (DIA)** corresponde al pronunciamiento de la autoridad. La clase compara también la evaluación previa de un proyecto con la auditoría de una actividad instalada. [EXT-011; OFF-005, slides 18, 20-23]
+
+En el método de Conesa Fernández-Vítora, la matriz de impactos cruza acciones del proyecto con factores ambientales. La de importancia valora cualitativamente los cruces, con mayor peso para la intensidad y la extensión en la fórmula mostrada. La de cuantificación utiliza indicadores y funciones de transformación para estimar magnitudes y determinar el impacto total sobre los factores evaluados. [EXT-011; OFF-005, slides 25-30]
 
 El **Plan de Gestión Ambiental (PGA)** se presenta como el conjunto de medidas para prevenir, mitigar, controlar, corregir y dar seguimiento a los impactos identificados. [EXT-011]
 
@@ -28,3 +30,4 @@ Los exámenes recopilados incluyen preguntas sobre EIA, EsIA, auditoría ambient
 - [EXT-007]
 - [EXT-008]
 - [EXT-011]
+- [OFF-005]

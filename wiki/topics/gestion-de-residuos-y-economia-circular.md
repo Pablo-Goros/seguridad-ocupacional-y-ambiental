@@ -1,7 +1,7 @@
 ---
 title: "Gestión de residuos y economía circular"
 aliases: [economía circular, residuos peligrosos]
-sources: [EXT-001, EXT-005, EXT-008, EXT-011]
+sources: [EXT-001, EXT-005, EXT-008, EXT-011, OFF-003]
 related: [contaminacion-ambiental, desarrollo-sustentable-y-diseno]
 prerequisites: [contaminacion-ambiental]
 ---
@@ -16,7 +16,7 @@ El resumen ambiental contrasta el modelo lineal —extraer, producir y desechar�
 
 Entre las estrategias recopiladas aparecen materiales biodegradables, productos reparables, componentes reemplazables o reutilizables, diseño para desarmado, remanufactura y reciclaje. El apunte también menciona la gestión de corrientes y residuos secundarios generados durante el tratamiento de efluentes. [EXT-008, EXT-011]
 
-Los materiales de evaluación preguntan por códigos y categorías de residuos peligrosos y por la responsabilidad del generador. Como este lote no contiene fuentes oficiales y las respuestas no bastan para establecer requisitos legales vigentes, esos detalles quedan pendientes de cotejo. [EXT-001, EXT-005, EXT-008, EXT-011]
+En el esquema didáctico de la clase 3, los códigos **Y** identifican corrientes o constituyentes sujetos a control y los **H** identifican características de peligrosidad. Los códigos **D** y **R** agrupan operaciones de eliminación y de recuperación, respectivamente. El resumen y la clase describen la responsabilidad del generador a lo largo de la cadena de gestión con la expresión «de la cuna a la tumba». [EXT-011, OFF-003, pp. 50-59]
 
 ## Exam relevance
 
@@ -28,3 +28,4 @@ La clasificación de residuos y la economía circular aparecen en preguntas reco
 - [EXT-005]
 - [EXT-008]
 - [EXT-011]
+- [OFF-003]

@@ -1,7 +1,7 @@
 ---
 title: "Tratamiento de efluentes líquidos"
 aliases: [tratamiento de aguas residuales, DQO, DBO5, biodegradabilidad]
-sources: [EXT-002, EXT-006, EXT-008, EXT-011]
+sources: [EXT-002, EXT-006, EXT-008, EXT-011, OFF-003]
 related: [contaminacion-ambiental, sistemas-acuaticos-y-ciclo-hidrologico]
 prerequisites: [contaminacion-ambiental]
 ---
@@ -20,6 +20,10 @@ Los resúmenes organizan el tratamiento en etapas primarias, secundarias y terci
 
 La **DQO** se presenta como medida de material oxidable y la **DBO₅** como medida de consumo de oxígeno asociado con degradación biológica. El resumen propone `DBO₅/DQO` como índice orientativo de biodegradabilidad. Para cargas altas, menciona la posibilidad de una etapa anaeróbica seguida de aeróbica; el valor de 5000 mg/L que aparece en el resumen está señalado allí como orientativo, no como límite universal. [EXT-008, EXT-011]
 
+Antes de elegir el tratamiento, la clase 3 propone caracterizar cada corriente por su composición, carga, caudal y variación temporal. El esquema de planta muestra corrientes de lodos y gases que pueden necesitar tratamientos anexos. [EXT-011, OFF-003, pp. 67-70, 86-87]
+
+La clase añade la alternativa **anóxica** entre los tratamientos biológicos secundarios. Ilustra el uso de nitrato en ausencia de oxígeno disuelto y la formación de nitrógeno gaseoso. [OFF-003, pp. 72, 80-83]
+
 ## Exam relevance
 
 Las compilaciones preguntan por secuencias de tratamiento, DQO/DBO, procesos anaeróbicos y aeróbicos, desinfección y selección de tratamientos según el efluente. Un final recopilado también pregunta qué tratamiento secundario puede generar energía. [EXT-002, EXT-006, EXT-008]
@@ -30,3 +34,4 @@ Las compilaciones preguntan por secuencias de tratamiento, DQO/DBO, procesos ana
 - [EXT-006]
 - [EXT-008]
 - [EXT-011]
+- [OFF-003]
